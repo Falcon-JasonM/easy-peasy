@@ -10,7 +10,7 @@ function jsonDeCookifier(name){
 
         let cookieName = cookieArray[i];
 
-            if(cookieName = name){
+            if(cookieName == name){
 
                 let uglyCookie = cookieArray[i + 1];
                 let lessUglyCookie = uglyCookie.replace(/\\/g,'');
